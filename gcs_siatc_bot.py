@@ -21,6 +21,7 @@ tree = app_commands.CommandTree(client=client)
 async def on_ready():
     # コマンドの同期
     await tree.sync()
+    await client.change_presence(status=discord.Status.online, activity=discord.CustomActivity(name=f'自己紹介チャンネル監視中'))
     print("Bot起動")
 
 @client.event
