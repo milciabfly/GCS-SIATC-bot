@@ -1,0 +1,5 @@
+# .env は無視する
+.env
+
+# .vscode は無視する
+.vscode
