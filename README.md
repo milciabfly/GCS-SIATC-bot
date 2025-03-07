@@ -5,7 +5,7 @@ $ pip install python-dotenv
 # Setup
 Creating .env files
 ## In the .env file.
-DISCORD_TOKEN='{token}'
+DISCORD_TOKEN='{token}'  
 DISCORD_CHANNEL=''
 
 # Activate
